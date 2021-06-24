@@ -1,13 +1,18 @@
 {
-  "orgName": "Demo company",
-  "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
-  "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
-    }
-  }
+	"orgName": "Apex Recipes",
+	"edition": "Developer",
+	"country": "US",
+	"language": "en_US",
+	"features": ["PlatformCache", "EnableSetPasswordInApi"],
+	"settings": {
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"mobileSettings": {
+			"enableS1EncryptedStoragePref2": false
+		},
+		"userEngagementSettings": {
+			"enableOrchestrationInSandbox": true
+		}
+	}
 }
